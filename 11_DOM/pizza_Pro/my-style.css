@@ -1,0 +1,36 @@
+
+.tarjeta {
+    border: black solid 2px;
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 200px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.none{
+    display: none;
+}
+
+.CuadroPrincipal{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    margin-top: 20px;
+    margin-left: 650px
+}
+.titulo{
+   
+    margin-top: 45px;
+}
+
+html {
+    background: url("https://ak.picdn.net/shutterstock/videos/1014004172/thumb/1.jpg") no-repeat center center fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+}

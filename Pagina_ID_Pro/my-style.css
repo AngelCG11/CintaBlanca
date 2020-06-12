@@ -1,0 +1,65 @@
+.my-color{
+    background-color: violet;
+    border: transparent;
+}
+
+.my-color:hover{
+    background-color: turquoise;
+}
+
+.my-image{
+    width: 500px;
+    height: 300px;
+}
+
+.padre{
+    
+    /* width: 500px; */
+    height: 500px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}    
+.Titulo{
+    text-align: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    margin-bottom: 0px;
+}
+.padre1{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    
+}
+.card{
+    height: 480px;
+    align-items: center;
+}
+.T2{
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+    width: 1370px;
+    height: 620px;
+    margin-left: -8px;
+    margin-top: -22px;
+}
+.padre3{
+    display: flex
+}
+.card2{
+    height: 2100px;
+    align-items: center;
+    background-color: white;
+    text-align: justify;
+    margin-top: 80px;
+}
+.padre2{
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+    height: 2219px;
+    
+
+}
+.Titulo2{
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+    text-align: center;
+    margin-bottom: 0px;
+    height: 0px;
+}

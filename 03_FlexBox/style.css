@@ -1,0 +1,76 @@
+.padre{
+    width: 600px;
+    height: 500px;
+    border: solid 2px black;
+    margin-left: 340px;
+    /* decimos que usaremos flexbox */
+    display: flex;
+    /* mueve mis elementos horizontalmente */
+    justify-content: space-around;
+    /* mueve mis elementos verticalmente */
+    align-items: center;
+    
+    /*flex-direction: column;*/
+}
+
+.hijo{
+    width: 200px;
+    height: 250px;
+    border: 2px solid green;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.hijo2{
+    width: 200px;
+    height: 250px;
+    border: 2px solid green;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+  }
+.pequeños{
+    width: 60px;
+    height: 50px;
+    border: 2px solid green;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.peque{
+    width: 50px;
+    height: 50px;
+    border: 2px solid green;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+.masp {
+    width: 5px;
+    height: 5px;
+    border: 2px solid green;
+    
+}
+
+.pequeño2{
+    width: 60px;
+    height: 50px;
+    border: 2px solid green;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.peque2{
+    width: 50px;
+    height: 50px;
+    border: 2px solid green;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
